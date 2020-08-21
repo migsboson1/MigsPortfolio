@@ -9,6 +9,7 @@
 #navitem {
   font-size: 100%;
   color: black;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .grid-container{
@@ -38,8 +39,7 @@
 
 h1 {
   font-size: 120%;
-  font-family: sans-serif;
-  display: flex;
+  font-family: 'Fjalla One', sans-serif;  display: flex;
   justify-content: center;
   padding: 15px;
 }
@@ -58,18 +58,20 @@ h1 {
 }
 
 .card:hover {
-  width: 104%;
+  width: 102%;
   top: -2px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
 .card article {
   padding: 20px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .card h4 {
   margin: 0px;
   color: #333;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .card .thumb {
@@ -90,6 +92,7 @@ h1 {
 }
 
 .cards:hover {
+  width: 102%;
   top: -2px;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
@@ -97,12 +100,14 @@ h1 {
  /* gives padding of words/article inside the card */
 .cards article {
   padding:20px;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 /* remove margins from the header text */
 .cards h4 {
   margin: 0px;
   color: blue;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .thumb {
