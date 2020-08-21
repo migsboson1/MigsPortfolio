@@ -1,0 +1,168 @@
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+#navitem {
+  font-size: 100%;
+  color: black;
+}
+
+.grid-container{
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+.grid-projects {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+}
+
+
+h1 {
+  font-size: 120%;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display:flex;
+  /* displaying flex will allow one to align the
+  contents of the card vertically using column direction */
+  flex-direction: column;
+  min-height: 100%;
+  top: 0;
+  transition: all .1s ease-in;
+}
+
+.card:hover {
+  width: 104%;
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+
+.card article {
+  padding: 20px;
+}
+
+.card h4 {
+  margin: 0px;
+  color: #333;
+}
+
+.card .thumb {
+  padding-bottom: 65%;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+.cards {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  top: 0;
+  transition: all .1s ease-in;
+}
+
+.cards:hover {
+  top: -2px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+ /* gives padding of words/article inside the card */
+.cards article {
+  padding:20px;
+}
+
+/* remove margins from the header text */
+.cards h4 {
+  margin: 0px;
+  color: blue;
+}
+
+.thumb {
+  display: inline;
+}
+
+/* the padding dictates the amount of space the thumbnail will take
+In other words, it increases/decreases the size that the image spans */
+.cards .thumb {
+  padding: 40%;
+  background-position: center center;
+  background-size: cover;
+}
+
+.thumb {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+  .media {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+  }
+
+.fa {
+  font-size: 50px;
+  padding: 1%;
+  width: 2%;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.media a {
+  font-size: 140%;
+}
+
+
+/* screens larger than 500px will have 2 columns */
+@media only screen and (min-width: 500px) {
+  .grid-container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-projects{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* Screens larger than 850px will have 4 columns */
+@media only screen and (min-width: 850px) {
+  .grid-container {
+    /* the grid-temp-col provides number of columns */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .grid-projects{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
