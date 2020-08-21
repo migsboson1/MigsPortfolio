@@ -1,9 +1,5 @@
 body{
   background-color: #F2F8FF;
-  margin-left: : 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
   }
 
 .navbar{
@@ -27,6 +23,8 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-family: 'Fjalla One', sans-serif;
+
 }
 
 #pf {
@@ -46,6 +44,7 @@ h1 {
   font-family: 'Oxygen', sans-serif;
   justify-content: center;
   align-items: center;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .container{
