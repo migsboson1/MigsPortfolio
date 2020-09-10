@@ -37,7 +37,8 @@
 
 h1 {
   font-size: 120%;
-  font-family: 'Fjalla One', sans-serif;  display: flex;
+  font-family: 'Fjalla One', sans-serif;
+  display: flex;
   justify-content: center;
   padding: 15px;
 }
@@ -108,10 +109,6 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.thumb {
-  display: inline;
-}
-
 /* the padding dictates the amount of space the thumbnail will take
 In other words, it increases/decreases the size that the image spans */
 .cards .thumb {
@@ -120,9 +117,6 @@ In other words, it increases/decreases the size that the image spans */
   background-size: cover;
 }
 
-.thumb {
-  display: inline;
-}
 
 a {
   text-decoration: none;
