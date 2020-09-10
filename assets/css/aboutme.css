@@ -63,6 +63,12 @@ img {
   column-count: 2;
   column-gap: 10%;
 }
+.media {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+
+}
 
 .fa {
   font-size: 50px;
@@ -72,12 +78,10 @@ img {
   margin: 1em;
 }
 
-.media {
-  display: flex;
-  justify-content: center;
-  margin: 1em;
-
+.media a {
+  font-size: 140%;
 }
+
 
 @media screen and (max-width: 768px) {
   .navbar{
@@ -119,7 +123,7 @@ img {
 
   #languages {
     column-count: 2;
-    column-gap: 10%;
+    column-gap: 13%;
   }
 
 }
