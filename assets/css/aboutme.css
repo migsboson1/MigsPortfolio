@@ -64,6 +64,13 @@ img {
   column-gap: 10%;
 }
 
+#media {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
 @media screen and (max-width: 768px) {
   .navbar{
     display: flex;
