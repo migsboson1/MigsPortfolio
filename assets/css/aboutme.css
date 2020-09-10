@@ -64,10 +64,19 @@ img {
   column-gap: 10%;
 }
 
-#media {
+.fa {
+  font-size: 50px;
+  padding: 1%;
+  width: 2%;
+  text-decoration: none;
+  margin: 1em;
+}
+
+.media {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 1em;
 
 }
 
