@@ -6,16 +6,17 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 .navitem{
-  font-size: 24px;
+  font-size: 100%;
+  color: black;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 a{
   text-decoration: none;
-  color: darkgray;
 }
 
 h1 {
@@ -41,15 +42,16 @@ h1 {
   font-size: 130%;
   word-spacing: 10px;
   line-height: 150%;
-  justify-content: center;
-  align-items: center;
   font-family: 'Fjalla One', sans-serif;
+  padding: 55px;
 }
 
 .container{
+  height: inherit;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 100%;
 }
 
 img {
@@ -83,17 +85,18 @@ img {
     width: 75%;
     height: auto;
     font-size: 85%;
+    padding: 3px;
   }
 
   #pf {
     width: 28%;
     box-shadow: 0px 0px 8px #888888;
+    margin: 3px;
   }
 
   .container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     width: 100%;
   }
