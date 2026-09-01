@@ -57,12 +57,11 @@ h1 {
   transform-style: preserve-3d;
 }
 
-/* .flip-card :hover {
-  width: 102%;
-  top: -2px;
+.flip-card :hover {
+  width: 100%;
   box-shadow: 0 4px 5px rgba(0,0,0,0.3);
   cursor: pointer;
-} */
+}
 
 /* .grid-container:hover{
    width: 102%;
@@ -82,6 +81,7 @@ h1 {
 
 .card-back article {
   padding: 20px;
+  margin: 0px;
   font-family: 'Fjalla One', sans-serif;
 }
 
@@ -90,6 +90,8 @@ h1 {
   background-color: white;
   color: black;
   opacity: 0;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 .card-front {
   transform: rotateY(deg0);
