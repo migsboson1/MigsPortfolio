@@ -54,6 +54,7 @@ h1 {
   min-height: 100%;
   top: 0;
   transition: all .1s ease-in;
+  transform-style: preserve-3d;
 }
 
 .card:hover {
@@ -73,12 +74,15 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.card .thumb {
+.card .thumb-inner {
   padding-bottom: 65%;
   background-size: cover;
   background-position: center center;
 }
 
+.card.flipped .card1 {
+  transform: rotateY(180deg);
+}
 
 .cards {
   background-color: white;
@@ -111,7 +115,7 @@ h1 {
 
 /* the padding dictates the amount of space the thumbnail will take
 In other words, it increases/decreases the size that the image spans */
-.cards .thumb {
+.cards .thumb-inner {
   padding: 40%;
   background-position: center center;
   background-size: cover;
