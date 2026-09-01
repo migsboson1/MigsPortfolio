@@ -80,10 +80,13 @@ h1 {
   background-position: center center;
 }
 
-.card.flipped .card1 {
+.card1.flipped .card-inner {
   transform: rotateY(180deg);
 }
 
+.card-back {
+  transform: rotateY(180deg);
+}
 .cards {
   background-color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
