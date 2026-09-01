@@ -43,7 +43,7 @@ h1 {
   padding: 15px;
 }
 
-.card {
+.card1 {
   background: white;
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -57,24 +57,24 @@ h1 {
   transform-style: preserve-3d;
 }
 
-.card:hover {
+.card1:hover {
   width: 102%;
   top: -2px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.2);
 }
 
-.card article {
+.card1 article {
   padding: 20px;
   font-family: 'Fjalla One', sans-serif;
 }
 
-.card h4 {
+.card1 h4 {
   margin: 0px;
   color: #333;
   font-family: 'Fjalla One', sans-serif;
 }
 
-.card .thumbnail {
+.card1 .thumbnail {
   padding-bottom: 65%;
   background-size: cover;
   background-position: center center;
@@ -82,6 +82,23 @@ h1 {
 
 .card1.flipped .card-inner {
   transform: rotateY(180deg);
+}
+
+.card-front, 
+.card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.card-front {
+  transform: rotateY(0deg);
 }
 
 .card-back {
@@ -118,7 +135,9 @@ h1 {
 
 /* the padding dictates the amount of space the thumbnail will take
 In other words, it increases/decreases the size that the image spans */
-.cards .thumbnail {
+.thumbnail {
+  width: 100%;
+  height: 100%;
   padding: 40%;
   background-position: center center;
   background-size: cover;
