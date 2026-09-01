@@ -135,6 +135,12 @@ In other words, it increases/decreases the size that the image spans */
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
+.card1:hover {
+  width: 102%;
+  top: -2px;
+  box-shadow: 0px 4px, 5px rgba(0, 0, 0, 0.3);
+}
+
  /* gives padding of words/article inside the card */
 .cards article {
   padding:20px;
