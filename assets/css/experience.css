@@ -44,7 +44,7 @@ h1 {
 }
 
 .card1 {
-  /* background: white; */
+  background: white;
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display:flex;
@@ -60,14 +60,18 @@ h1 {
 .card1:hover {
   width: 102%;
   top: -2px;
-  box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 5px rgba(0,0,0,0.3);
 }
 
-.card1 article {
+.card-back article {
   padding: 20px;
   font-family: 'Fjalla One', sans-serif;
+  color: black;
 }
 
+.card-back {
+  color: white;
+}
 .card1 h4 {
   margin: 0px;
   color: #333;
@@ -91,23 +95,6 @@ h1 {
     -webkit-backface-visibility: hidden;
 }
 
-.card-front {
-  transform: rotateY(0deg);
-  z-index: 1;
-}
-
-.card-back {
-  transform: rotateY(180deg);
-  z-index: 2;
-}
-
-.card1.flipped .card-back {
-  z-index: 1;
-}
-
-.card1.flipped .card-front {
-  z-index: 2;
-}
 /* the padding dictates the amount of space the thumbnail will take
 In other words, it increases/decreases the size that the image spans */
 .thumbnail {
@@ -135,11 +122,6 @@ In other words, it increases/decreases the size that the image spans */
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
 }
 
-.card1:hover {
-  width: 102%;
-  top: -2px;
-  box-shadow: 0px 4px, 5px rgba(0, 0, 0, 0.3);
-}
 
  /* gives padding of words/article inside the card */
 .cards article {
