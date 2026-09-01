@@ -43,7 +43,7 @@ h1 {
   padding: 15px;
 }
 
-.card1 {
+.card1, .card2 {
   background: white;
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -57,13 +57,19 @@ h1 {
   transform-style: preserve-3d;
 }
 
-.card1:hover {
+.card1, .card2 :hover {
   width: 102%;
   top: -2px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.3);
   cursor: pointer;
 }
 
+/* .grid-container:hover{
+   width: 102%;
+  top: -2px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+  cursor: pointer;
+} */
 .card-inner {
    position: relative;
     width: 100%;
@@ -95,7 +101,8 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.card1.flipped .card-inner {
+.card1.flipped, .card2.flipped,
+.card-inner {
   transform: rotateY(180deg);
 }
 
@@ -112,11 +119,13 @@ h1 {
     -webkit-backface-visibility: hidden;
 }
 
-.card1.flipped .card-back {
+.card1.flipped, .card2.flipped,
+.card-back {
   opacity: 1;
 }
 
-.card1.flipped .card-front {
+.card1.flipped, .card2.flipped, 
+.card-front {
   opacity: 0;
 }
 
