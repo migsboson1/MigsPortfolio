@@ -43,7 +43,7 @@ h1 {
   padding: 15px;
 }
 
-.flipped-card {
+.flip-card {
   background: white;
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -57,7 +57,7 @@ h1 {
   transform-style: preserve-3d;
 }
 
-.flipped-card :hover {
+.flip-card :hover {
   width: 102%;
   top: -2px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.3);
@@ -101,7 +101,7 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.flipped-card.flipped .card-inner{
+.flip-card.flipped .card-inner{
   transform: rotateY(180deg);
 }
 
@@ -118,11 +118,11 @@ h1 {
     -webkit-backface-visibility: hidden;
 }
 
-.flipped-card.flipped .card-back {
+.flip-card.flipped .card-back {
   opacity: 1;
 }
 
-.flipped-card.flipped .card-front {
+.flip-card.flipped .card-front {
   opacity: 0;
 }
 
