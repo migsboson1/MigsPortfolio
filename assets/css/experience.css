@@ -74,7 +74,7 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.card .thumb-inner {
+.card .thumbnail {
   padding-bottom: 65%;
   background-size: cover;
   background-position: center center;
