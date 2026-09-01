@@ -114,7 +114,7 @@ h1 {
   box-sizing: border-box;
 }
 .card-front {
-  transform: rotateY(deg0);
+  transform: rotateY(0deg);
   opacity: 1;
 }
 .card-front :hover {
