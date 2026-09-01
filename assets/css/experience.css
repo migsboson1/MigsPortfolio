@@ -57,12 +57,12 @@ h1 {
   transform-style: preserve-3d;
 }
 
-.flip-card :hover {
+/* .flip-card :hover {
   width: 102%;
   top: -2px;
   box-shadow: 0 4px 5px rgba(0,0,0,0.3);
   cursor: pointer;
-}
+} */
 
 /* .grid-container:hover{
    width: 102%;
@@ -94,6 +94,11 @@ h1 {
 .card-front {
   transform: rotateY(deg0);
   opacity: 1;
+}
+.card-front :hover {
+  box-shadow: 0 4px 5px rgba(0,0,0,0.3);
+  width:102%;
+  cursor: pointer;
 }
 .card1 h4 {
   margin: 0px;
