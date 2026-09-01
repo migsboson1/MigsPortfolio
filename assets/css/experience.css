@@ -44,7 +44,7 @@ h1 {
 }
 
 .card1 {
-  background: white;
+  /* background: white; */
   text-decoration: none;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   display:flex;
@@ -93,10 +93,20 @@ h1 {
 
 .card-front {
   transform: rotateY(0deg);
+  z-index: 1;
 }
 
 .card-back {
   transform: rotateY(180deg);
+  z-index: 2;
+}
+
+.card1.flipped .card-back {
+  z-index: 1;
+}
+
+.card1.flipped .card-front {
+  z-index: 2;
 }
 /* the padding dictates the amount of space the thumbnail will take
 In other words, it increases/decreases the size that the image spans */
@@ -105,6 +115,7 @@ In other words, it increases/decreases the size that the image spans */
   height: 100%;
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 
