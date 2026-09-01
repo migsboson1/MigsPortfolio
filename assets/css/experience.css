@@ -63,8 +63,6 @@ h1 {
 
     perspective: 1000px;
     cursor: pointer;
-
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .card-inner {
@@ -113,15 +111,24 @@ h1 {
   overflow-y: auto;
   box-sizing: border-box;
 }
+
+.card-back .nohover {
+  pointer-events: none;
+}
+
+
 .card-front {
   transform: rotateY(0deg);
   opacity: 1;
 }
-.card-front :hover {
+
+
+/* .card-front :hover {
   box-shadow: 0 4px 5px rgba(0,0,0,0.3);
   width:102%;
   cursor: pointer;
-}
+} */
+
 .card1 h4 {
   margin: 0px;
   color: #333;
