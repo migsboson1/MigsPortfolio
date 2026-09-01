@@ -101,7 +101,7 @@ h1 {
   font-family: 'Fjalla One', sans-serif;
 }
 
-.flipped-card .card-inner{
+.flipped-card.flipped .card-inner{
   transform: rotateY(180deg);
 }
 
@@ -118,12 +118,11 @@ h1 {
     -webkit-backface-visibility: hidden;
 }
 
-.flipped-card
-.card-back {
+.flipped-card.flipped .card-back {
   opacity: 1;
 }
 
-.flipped-card .card-front {
+.flipped-card.flipped .card-front {
   opacity: 0;
 }
 
