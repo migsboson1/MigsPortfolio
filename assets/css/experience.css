@@ -112,7 +112,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.card-inner .nohover {
+.card-back .nohover {
   pointer-events: none;
 }
 
@@ -171,46 +171,16 @@ In other words, it increases/decreases the size that the image spans */
 }
 
 
-.cards {
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  min-height: 100%;
-  top: 0;
-  transition: all .1s ease-in;
-}
-
-.cards:hover {
-  width: 102%;
-  top: -2px;
-  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.3);
-}
-
-
- /* gives padding of words/article inside the card */
-.cards article {
-  padding:20px;
-  font-family: 'Fjalla One', sans-serif;
-}
-
-/* remove margins from the header text */
-.cards h4 {
-  margin: 0px;
-  color: black;
-  font-family: 'Fjalla One', sans-serif;
-}
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
-  .media {
+.media {
     display: flex;
     justify-content: center;
     margin: 1em;
-  }
+}
 
 .fa {
   font-size: 50px;
