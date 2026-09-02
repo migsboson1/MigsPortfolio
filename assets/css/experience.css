@@ -43,19 +43,16 @@ h1 {
   padding: 15px;
 }
 
-/* .flip-card {
-  background: white;
-  text-decoration: none;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-  display:flex;
-  /* displaying flex will allow one to align the
-  contents of the card vertically using column direction */
-  /* flex-direction: column;
-  min-height: 100%;
-  top: 0;
-  transition: all .1s ease-in;
-  transform-style: preserve-3d;
-} */
+h3 {
+  font-size: 120%;
+  font-family: 'Fjalla One', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  overflow-y: scroll;
+}
+
+
 
 .flip-card {
     width: 100%;
@@ -97,11 +94,11 @@ h1 {
     -webkit-transform-style: preserve-3d;
 }
 
-.card-back article {
+/* .card-back article {
   padding: 20px;
   margin: 0px;
   font-family: 'Fjalla One', sans-serif;
-}
+} */
 
 .card-back {
   transform: rotateY(180deg);
