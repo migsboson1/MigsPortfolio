@@ -112,7 +112,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.card-back .nohover {
+.card-inner .nohover {
   pointer-events: none;
 }
 
