@@ -108,7 +108,8 @@ h1 {
   background-color: white;
   color: black;
   opacity: 0;
-  overflow-x: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
   box-sizing: border-box;
 }
 
