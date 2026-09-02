@@ -46,7 +46,16 @@ h1 {
 .card-back h3 {
   margin: 0 0 25px 0;
   /* font-size: 120%; */
-  padding: 0;
+  padding: 1px;
+  font-family: 'Fjalla One', sans-serif;
+  text-align:center ;
+  
+}
+
+.card-back h5 {
+  margin: 0 0 25px 0;
+  /* font-size: 120%; */
+  padding: 5px;
   font-family: 'Fjalla One', sans-serif;
   
 }
