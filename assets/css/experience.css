@@ -13,13 +13,14 @@
 .grid-container{
   width: 90%;
   max-width: 1240px;
-  margin: 0 auto;
+  margin: 10px 10px 10px 10px;
 
   display: grid;
 
   grid-template-columns: 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
+  grid-template-columns: auto;
 }
 
 .grid-projects {
@@ -61,7 +62,7 @@ h1 {
 }
 
 .card-back p {
-  margin: 0;
+  margin: 10px 10px 10px 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   line-height: 1.35;
   overflow-wrap: break-word;
